@@ -1,0 +1,21 @@
+{
+  "name": "kdt8-m2",
+  "version": "1.0.0",
+  "description": "재고 관리 서비스",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel ./index.html --no-cache",
+    "build": "parcel build ./index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "firebase": "^10.9.0"
+  }
+}

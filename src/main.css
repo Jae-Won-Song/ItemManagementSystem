@@ -1,0 +1,395 @@
+* {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    border: none;
+}
+
+body {
+    background-color: #F3F4F6;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.nav-top{
+    display: flex;
+    box-shadow: 0 0 6px #000;
+    background-color: #fff;
+}
+
+
+
+.nav-top a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2em;
+    margin-left: 9rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    .nav-top a {
+        font-size: 1.5rem;
+        margin-left: 3.3rem;
+    }
+}
+@media screen and (max-width: 389px) {
+    .nav-top a {
+        font-size: 1rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+
+.gnb{
+    height: 6em;
+    display: flex;
+    align-items: center;
+    padding-left: calc(1920 / 12 * 1);
+    padding-right: calc(1920 / 12 * 1);
+}
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    .gnb {
+        padding: 0%;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.gnb .search {
+    width: 20rem;
+    height: 2.5em;
+    border-radius: .3em;
+    text-indent: 1em;
+    margin-left: 70%;
+}
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    .gnb .search {
+        display: flex;
+        width: 265px;
+        height: 2rem;
+        font-size: 1em;
+        border-radius: .3em;
+        text-indent: 1em;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 389px) {
+    .gnb .search {
+        height: 1rem;
+        width: 100px;
+        font-size: 8px;
+        margin-left: 25%;
+    }
+}
+
+.gnb .add-btn {
+    width: 8rem;
+    height: 3.3rem;
+    background-color: #DBEAFE;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: .3em;
+    cursor: pointer;
+    margin-right: 2em;
+}
+
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    .gnb .add-btn {
+        height: 2rem;
+        padding: 0%;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:389px) {
+    .gnb .add-btn {
+        height: 1rem;
+        width: 60px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+.gnb .del-btn{
+    width: 8rem;
+    height: 3.3rem;
+    background-color: #FECACA;
+    color: #DC2626;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    .gnb .del-btn {
+        height: 2rem;
+        padding: 0%;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:389px) {
+    .gnb .del-btn {
+        height: 1rem;
+        width: 60px;
+        font-size: 10px;
+    }
+}
+
+
+.add-form section{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.1rem;
+    height: 100vh;
+    background-color: #DBEAFE; 
+}
+
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    .add-form section {
+        height: 100vh;
+    }
+}
+
+
+
+.add-tb-content {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+/* 모바일 */
+}
+
+
+
+
+.add-tb-content div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    
+}
+
+@media screen and (max-width: 389px) {
+    .add-tb-content div {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .add-tb-content div input {
+        left: 0;
+        top: 0;
+        margin: auto;
+        width: 80px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 389px){
+    .add-tb-content {
+    margin-bottom: 20px
+    }
+
+}
+
+.add-tb-content input {
+    text-align: center;
+    height: 3em;
+    border-radius: 4px;
+}
+
+.add-tb-content #img {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.add-form button {
+    width: 8em;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+.tb-header{
+    background-color: #fff;
+    border-radius: .3em;
+}
+
+
+th{
+    padding: 1.8em 1em;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #000;
+    text-align: center;
+} 
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    th {
+        font-size: 18px;
+        
+    }
+}
+@media screen and (max-width: 389px) {
+    th {
+        font-size: 10px;
+    }
+}
+
+
+
+td{
+    background-color: #fff;
+    height: 5.5em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+@media screen and (max-width:1023px) {
+
+}
+
+@media screen and (max-width:767px) {
+    td {
+        font-size: 14px;
+        vertical-align: middle;
+        border-top: 1px solid black;
+        
+    }
+}
+
+@media screen and (max-width:389px) {
+    td {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:389px) {
+    td img {
+        width: 50px;
+
+    }
+}
+
+
+.add-form form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main-item {
+    position: relative;
+}
+
+.main-item .tb-content {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    /* background-color: orange; */
+}
+
+.main-item .tb-content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+
+
+}
+
+#root > div > router-view > div > button {
+    height: 2em;
+    background-color: #FECACA;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    margin: auto;
+    margin-top: 2em;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+

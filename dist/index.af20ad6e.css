@@ -1,0 +1,322 @@
+* {
+  border: none;
+  font-family: Spoqa Han Sans Neo, "sans-serif";
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-top {
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 0 6px #000;
+}
+
+.nav-top a {
+  text-align: center;
+  color: #000;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2em;
+  margin-left: 9rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+}
+
+@media screen and (width <= 767px) {
+  .nav-top a {
+    margin-left: 3.3rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (width <= 389px) {
+  .nav-top a {
+    margin: auto;
+    font-size: 1rem;
+    left: 0;
+    right: 0;
+  }
+}
+
+.gnb {
+  align-items: center;
+  height: 6em;
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+}
+
+@media screen and (width <= 767px) {
+  .gnb {
+    justify-content: center;
+    padding: 0%;
+    font-size: 14px;
+    display: flex;
+  }
+}
+
+.gnb .search {
+  text-indent: 1em;
+  border-radius: .3em;
+  width: 20rem;
+  height: 2.5em;
+  margin-left: 70%;
+}
+
+@media screen and (width <= 767px) {
+  .gnb .search {
+    text-indent: 1em;
+    border-radius: .3em;
+    width: 265px;
+    height: 2rem;
+    margin-left: 20%;
+    font-size: 1em;
+    display: flex;
+  }
+}
+
+@media screen and (width <= 389px) {
+  .gnb .search {
+    width: 100px;
+    height: 1rem;
+    margin-left: 25%;
+    font-size: 8px;
+  }
+}
+
+.gnb .add-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #dbeafe;
+  border-radius: .3em;
+  width: 8rem;
+  height: 3.3rem;
+  margin-right: 2em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+@media screen and (width <= 767px) {
+  .gnb .add-btn {
+    width: 130px;
+    height: 2rem;
+    padding: 0%;
+  }
+}
+
+@media screen and (width <= 389px) {
+  .gnb .add-btn {
+    width: 60px;
+    height: 1rem;
+    font-size: 10px;
+  }
+}
+
+.gnb .del-btn {
+  color: #dc2626;
+  cursor: pointer;
+  background-color: #fecaca;
+  border-radius: .3em;
+  width: 8rem;
+  height: 3.3rem;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+@media screen and (width <= 767px) {
+  .gnb .del-btn {
+    width: 130px;
+    height: 2rem;
+    padding: 0%;
+  }
+}
+
+@media screen and (width <= 389px) {
+  .gnb .del-btn {
+    width: 60px;
+    height: 1rem;
+    font-size: 10px;
+  }
+}
+
+.add-form section {
+  background-color: #dbeafe;
+  justify-content: center;
+  height: 100vh;
+  margin-top: .1rem;
+  display: flex;
+}
+
+@media screen and (width <= 767px) {
+  .add-form section {
+    height: 100vh;
+  }
+}
+
+.add-tb-content {
+  border-radius: 4px;
+  justify-content: center;
+  display: flex;
+}
+
+.add-tb-content div {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (width <= 389px) {
+  .add-tb-content div {
+    justify-content: flex-start;
+  }
+
+  .add-tb-content div input {
+    width: 80px;
+    margin: auto;
+    font-size: 10px;
+    top: 0;
+    left: 0;
+  }
+
+  .add-tb-content {
+    margin-bottom: 20px;
+  }
+}
+
+.add-tb-content input {
+  text-align: center;
+  border-radius: 4px;
+  height: 3em;
+}
+
+.add-tb-content #img {
+  background-color: #fff;
+  place-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.add-form button {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 8em;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.tb-header {
+  background-color: #fff;
+  border-radius: .3em;
+}
+
+th {
+  text-align: left;
+  color: #000;
+  text-align: center;
+  padding: 1.8em 1em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+@media screen and (width <= 767px) {
+  th {
+    font-size: 18px;
+  }
+}
+
+@media screen and (width <= 389px) {
+  th {
+    font-size: 10px;
+  }
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  border-bottom: 1px solid #ffffff1a;
+  height: 5.5em;
+  font-size: 1em;
+}
+
+@media screen and (width <= 767px) {
+  td {
+    vertical-align: middle;
+    border-top: 1px solid #000;
+    font-size: 14px;
+  }
+}
+
+@media screen and (width <= 389px) {
+  td {
+    font-size: 8px;
+  }
+
+  td img {
+    width: 50px;
+  }
+}
+
+.add-form form {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.main-item {
+  position: relative;
+}
+
+.main-item .tb-content {
+  justify-content: center;
+  display: flex;
+  position: sticky;
+}
+
+.main-item .tb-content div {
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  display: flex;
+}
+
+#root > div > router-view > div > button {
+  color: #fff;
+  background-color: #fecaca;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  margin: 2em auto auto;
+  font-weight: 600;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #0000004d;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px #0000004d;
+}
+/*# sourceMappingURL=index.af20ad6e.css.map */
