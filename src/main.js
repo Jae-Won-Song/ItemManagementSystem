@@ -2,7 +2,11 @@ import App from './App'
 import router from './routes'
 
 
-ㅅ
 
-ㅅ
+const root = document.querySelector('#root')
+root.append(new App().el)
+
+router()
+
+
 
